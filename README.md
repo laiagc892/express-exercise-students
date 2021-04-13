@@ -24,7 +24,7 @@ Comprueba que en el fichero __package.json__ se ha instalado la dependencia __ex
 
 2. Recuerda añadir el __status__ a la respuesta de valor 200; para indicar que la comunicación ha ido bien
 
-Pregunta: ¿has necesiado indicar el tipo de codificación de los carácteres en la respuesta? ¿Y el tipo de datos devuelto?
+Pregunta: ¿has necesitado indicar el tipo de codificación de los carácteres en la respuesta? ¿Y el tipo de datos devuelto?
 
 3. Instala nodemon:
 
@@ -62,7 +62,7 @@ Y que __nodemon__ se encargue de recargar el servidor si el fichero server2.js s
 
 Crea un nuevo servidor, de nombre **server2** y que haga exactamente lo mismo que **server1**; pero esta vez, solo mostrarà la respuesta HTML si y solo sí el usuario accede a 'http://localhost:3000/mensaje'. Si el usuario accede a cualquier otra URL, el servidor devuelve un mensaje que dice : "No he encontrado lo que buscabas...". Además, recuerda devolver un status 404 en este caso.
 
-Debes usar dos veces el método **app.get** y otra **app.use** para conseguir esta funcionalidad. ¿Que diferencia puedes apreciar entre los dos métodos, en cuanto a la gestión de las peticiones del cliente?
+Debes usar una vez el método **app.get** y otra **app.use** para conseguir esta funcionalidad. ¿Que diferencia puedes apreciar entre los dos métodos, en cuanto a la gestión de las peticiones del cliente?
 
 Extra: ¿Qué mensaje genera Express si no encuentra un endpoint que coincida con la petición del cliente? Dicho de otro modo, explora como funciona tu script si solo pusieras la sentencia app.get('/mensaje', etc...)
 
