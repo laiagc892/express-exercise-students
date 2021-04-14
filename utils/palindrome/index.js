@@ -6,16 +6,16 @@ exports.palindrome = function(str) {
     str = str.toLowerCase()
     j=str.length -1
     let esPalindromo = true
-  
+    
     while(i<j && esPalindromo) {
-      esPalindromo = str[i] == str[j]
-      i++
-      j--;
+        esPalindromo = str[i] == str[j]
+        i++
+        j--;
     }
-  
+    
     return esPalindromo;
-  }
+}
 
 exports.esPar = (num) => {
-  return num % 2
+    return num % 2
 }

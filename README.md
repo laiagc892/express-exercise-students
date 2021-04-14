@@ -108,13 +108,13 @@ npm run server4
 
 Crea un nuevo servidor. Este servidor implemeta un solo endpoint, que va a comprobar si la última parte de la URL es un palíndromo o no.
 
-Fíjate que la última parte de la URL cambia, pero el endpoint __check__ es el mismo. Recuerad que a esto la llamamos **ruta dinámica**.
+Fíjate que la última parte de la URL cambia, pero el endpoint __check__ es el mismo. Recuerda que a esto la llamamos **ruta dinámica**.
 
 1. Si el usuario accede a http://localhost:3000/check/eye, el servidor devolverà "Es un palíndromo".
 
 2. Si el usuario accede a http://localhost:3000/check/vaca, el servidor devolverà "NO es un palíndromo"
 
-Si el usuario no accede al endpont 'check' el servidor debe devolver un error 404, similar al ejercicio anterior.
+Si el usuario no accede al endpoint 'check' el servidor debe devolver un error 404, similar al ejercicio anterior.
 
 Fíjate que no tienes que implementar la funcionalidad para saber si una palabra es un palíndromo o no. Tienes un __custom module__ preparado para utilizarlo en utils/palindrome. Tan solo debes importarlo.
 
@@ -152,7 +152,7 @@ Este servidor tiene ya implementado un endpoint, concretamente, al directorio ra
 
 [Pista](https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs/Introduction#sirviendo_archivos_est%C3%A1ticos)
 
-2. Implemente un endpoint que caputre un POST al endpoint '/formulario'; y que simplemente se encargue de retornar los datos enviados por el formulario en formato JSON.
+2. Implemente un endpoint que capture un POST al endpoint '/formulario'; y que simplemente se encargue de retornar los datos enviados por el formulario en formato JSON.
 
 Debes obtener una respuesta similar a [esta](https://oscarm.tinytake.com/tt/NTI4MzA2OV8xNjUzODA1Ng)
 
@@ -161,7 +161,7 @@ Debes obtener una respuesta similar a [esta](https://oscarm.tinytake.com/tt/NTI4
 ## BONUS FINAL
 
 1. Borra la carpeta node_modules
-2. Envia todo el proyecto a tun compañero/a
+2. Envia todo el proyecto a tu compañero/a
 3. El compañero/a debe ejecutar "npm install"; sin parámetros.
 
 Si está bien creado el package.json; tu compañero/a debe ser capaz de ejecutar cualquier servidor en su máquina mediante "npm run nombre-del-servidor".

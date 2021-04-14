@@ -15,17 +15,3 @@ server2.use((req, res)=> {
 })
 
 server2.listen(3000)
-
-
-
-
-
-// server2.get('/:endpoint', (req, res) => {
-//     console.log(req.params);
-//     if (req.params.endpoint == 'mensaje') {
-//         return res.status(200).send(`
-//         <h1>El servidor funciona correctamente</h1>
-//         <p>Aquí iría el contenido del mensaje</p>
-//         `)
-//     }
-// })
